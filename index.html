@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud Launch</title>
+    <meta name="description" content="A simple static website ready to publish." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <nav class="nav container">
+        <a class="brand" href="#">Cloud Launch</a>
+        <a class="btn btn-secondary" href="#about">Learn more</a>
+      </nav>
+
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Static site • Fast • Simple</p>
+          <h1>Launch your next idea with a polished static website.</h1>
+          <p class="lead">
+            This page is ready to publish on GitHub Pages or any static hosting service.
+          </p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#contact">Get started</a>
+            <a class="btn btn-ghost" href="#features">See features</a>
+          </div>
+        </div>
+        <aside class="card spotlight">
+          <h2>Why this works</h2>
+          <ul>
+            <li>No build step required</li>
+            <li>Lightweight and responsive</li>
+            <li>Easy to push to GitHub</li>
+          </ul>
+        </aside>
+      </div>
+    </header>
+
+    <main class="container sections">
+      <section id="features" class="card">
+        <h2>Features</h2>
+        <div class="feature-grid">
+          <article>
+            <h3>Fast</h3>
+            <p>Everything is plain HTML, CSS, and JavaScript for quick delivery.</p>
+          </article>
+          <article>
+            <h3>Responsive</h3>
+            <p>Looks clean on desktop, tablet, and mobile screens.</p>
+          </article>
+          <article>
+            <h3>Portable</h3>
+            <p>Host it anywhere static files are supported, including GitHub Pages.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="about" class="card">
+        <h2>About this site</h2>
+        <p>
+          The website lives entirely in the <strong>site/</strong> folder, so the existing Terraform file remains untouched.
+        </p>
+      </section>
+
+      <section id="contact" class="card contact-card">
+        <h2>Ready to publish?</h2>
+        <p>Open the site folder in your browser or push it to GitHub for automatic hosting.</p>
+        <a class="btn btn-primary" href="https://pages.github.com/" target="_blank" rel="noreferrer">GitHub Pages guide</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
